@@ -72,7 +72,7 @@ add_action( 'admin_menu', 'pantheon_agcdn_management_admin_menu' );
  */
 function view_settings_page() {
 	wp_enqueue_script( 'vue', 'https://vuejs.org/js/vue.js', array(), '2.6.12', true );
-	wp_enqueue_script( 'pantheon-agcdn-management', 'https://cdn.jsdelivr.net/gh/pantheon-systems/vue-agcdn-mgmt@0.9.4/dist/main.js', array( 'vue' ), '0.9.4', true );
+	wp_enqueue_script( 'pantheon-agcdn-management', 'https://cdn.jsdelivr.net/gh/pantheon-systems/vue-agcdn-mgmt@0.9.5/dist/main.js', array( 'vue' ), '0.9.5', true );
 	wp_localize_script(
 		'pantheon-agcdn-management',
 		'WP_OPTIONS',
