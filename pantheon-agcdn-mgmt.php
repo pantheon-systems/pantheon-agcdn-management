@@ -3,7 +3,7 @@
  * Plugin Name: AGCDN Management
  * Plugin URI: https://pantheon.io
  * Description: Manage AGCDN Options
- * Version: 1.0
+ * Version: 1.1
  * Author: Pantheon
  * Author URI: https://pantheon.io
  *
