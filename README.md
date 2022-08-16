@@ -5,6 +5,8 @@
 
 Changelog
 
+1.2 -- Added API key constant and hook for user role
+
 1.1 -- 3/1/23 updated Vue dependency because the initial version cdn location has been discontinued
 
 1.0 -- Initial version
