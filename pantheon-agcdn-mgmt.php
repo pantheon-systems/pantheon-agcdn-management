@@ -88,7 +88,7 @@ function pantheon_agcdn_view_settings_page() {
 		$api_key = get_option( 'pantheon_agcdn_management_api_key' );
 	}
 
-	wp_enqueue_script( 'vue', 'https://cdn.jsdelivr.net/npm/vue@2.6.12', array(), '', true );
+	wp_enqueue_script( 'vue', 'https://cdn.jsdelivr.net/npm/vue@2.6.12', array(), '1', true );
 	wp_enqueue_script( 'pantheon-agcdn-management', 'https://cdn.jsdelivr.net/gh/pantheon-systems/vue-agcdn-mgmt@0.9.5/dist/main.js', array( 'vue' ), '0.9.5', true );
 	wp_localize_script(
 		'pantheon-agcdn-management',
